@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background: linear-gradient(
+    90deg,
+    rgba(115, 192, 208, 1) 0%,
+    rgba(12, 12, 92, 1) 45%,
+    rgba(2, 0, 36, 1) 74%
+  );
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header__nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__nav-menu__link {
+  padding: 0px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.header__nav-title {
+  font-size: 25px;
+  font-family: 'Fredoka One', cursive;
+  text-decoration: none;
+  color: black;
+}
+
+.header__background {
+  background-image: url(/assets/images/stanislaw-zarychta-vfuTnGb6-e8-unsplash.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  background-position: center ce;
+  background-repeat: no-repeat;
+}
